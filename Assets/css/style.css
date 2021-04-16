@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
+/***************************************** GENERAL***/
+
+* {
+    margin:0;
+    border:0;
+    padding:0;
+}
+
+
+body {
+    font-family: 'Shadows Into Light Two', cursive;
+    color:black;
+}
+
+.heading-center {
+    text-align:center;
+}
+
+hr {
+    margin:0 auto;
+    width:25%;
+    color:#fafafa;
+    height:200px;
+    font-weight:200;
+}
+
+/***************************************** NAV***/
+
+header {
+    margin:5px 0;
+}
+
+.navi {
+    
+    float:right;
+}
+
+.navi li {
+    padding-right:4px;
+}
+
+.navi li:hover {
+    color:#5555
+}
+
+.logo {
+    padding:10px 10px;
+    background-color:#f5f5f5;
+    height:75px;
+    width:100%;
+}
+
+.logo a {
+    text-decoration:none;
+    color:inherit;
+    font-size:30px;
+    padding-left:10px;
+
+}
+
+/***************************************** COVER***/
+
+.cover-bg {
+    background:url("/images/agnieszka-kowalczyk-_xzLI_Hz0jc-unsplash (3).jpg") no-repeat center center;
+    background-size:cover;
+    height:500px;
+    width:100%;
+    position:relative;
+
+}
+
+#cover-text {
+    max-height:250px;
+    width:90%;
+    overflow:hidden;
+    position:absolute;
+    top:80px;
+    left:5%;
+    
+    background-color:rgba(274, 171, 171, 0.9);
+    color:#fafafa;
+    
+}
+
+#cover-text h1,p  {
+    text-align:center;
+    padding:5px;
+}
+
+#cover-text h1 {
+    font-weight:200;
+    font-size:50px;
+    letter-spacing:1px;
+    padding:10px 0;
+}
+
+#cover-text p {
+    font-weight:100;
+    font-size:25px;
+    padding-top:10px;
+}
+
+/***************************************** INF0***/
+
+.info-sec {
+    min-height:800px;
+    width:100%;
+    background-color:#a5c0d9;
+    margin-top:2px;
+}
+
+
+
+.about {
+    text-align:center;
+    padding:50px 0 40px;
+    letter-spacing:1px;
+    font-weight:500;
+    font-weight:1000;
+    
+}
+
+.about h1 {
+    font-weight:500;
+}
+
+.row h2 {
+    padding-bottom:5px;
+    text-align:center;
+
+}
+
+.row p {
+    font-size:20px;
+}
+
+/***************************************** Customer section***/
+.customers-sec {
+    height:1000px;
+    background-color:#f5f5f5;
+    color:black;
+    margin:5px 0;
+    position:relative;
+
+}
+
+.quotes {
+    position:absolute;
+    top:40%;
+    width:inherit;
+}
+
+/***************************************** FOOTER***/
+
+footer {
+    height:300px;
+    width:100%;
+    margin-top:2px;
+}
+
+.footer-bg-color {
+    background-color:#a5c0d9;
+    height:250px;
+}
