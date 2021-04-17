@@ -27,41 +27,50 @@ hr {
 }
 
 /***************************************** NAV***/
-
 header {
-    margin:5px 0;
-}
-
-.navi {
-    
-    float:right;
-}
-
-.navi li {
-    padding-right:4px;
-}
-
-.navi li:hover {
-    color:#5555
-}
-
-.logo {
-    padding:10px 10px;
-    background-color:#f5f5f5;
-    height:75px;
+    height:80px;
+    background-color:#bebebe;
     width:100%;
-}
-
-.logo a {
-    text-decoration:none;
-    color:inherit;
-    font-size:30px;
-    padding-left:10px;
-
+    margin:1px 0;
 }
 
 #logo {
+    float:left;
+    text-decoration:none;
+    color:#fafafa;;
+    font-size:38px;
+    margin-left:10px;
+    font-family: 'Shadows Into Light Two', cursive;
     letter-spacing:2px;
+    margin-top:15px;
+}
+
+#logo, #links {
+    line-height:30px;
+}
+
+
+.links {
+    float:right;
+    list-style-type:none;
+    font-size:25px;
+    line-height:20px;
+}
+
+.links a:hover {
+    background-color:grey;
+    
+}
+
+.links li {
+    text-decoration:none;
+    float:right;
+}
+
+.links li a {
+    text-decoration:none;
+    color:#fafafa;
+    padding-right:20px;
 }
 
 /***************************************** COVER***/
@@ -88,6 +97,7 @@ header {
     
 }
 
+
 #cover-text h1,p  {
     text-align:center;
     padding:5px;
@@ -96,14 +106,37 @@ header {
 #cover-text h1 {
     font-weight:200;
     font-size:50px;
-    letter-spacing:1px;
+    letter-spacing:2px;
     padding:10px 0;
+    font-family: 'Shadows Into Light Two', cursive;
 }
 
 #cover-text p {
     font-weight:100;
     font-size:25px;
     padding-top:10px;
+}
+
+#joinbutton {
+    position:absolute;
+    top:50%;
+    text-align:center;
+    margin:0 auto;
+    width:100%;
+
+}
+
+#joinbutton a {
+    text-decoration:none;
+    color:inherit;
+}
+
+.btn-secondary {
+    color:black;
+}
+
+.btn-secondary:hover {
+    background-color:black;
 }
 
 /***************************************** INF0***/
@@ -165,7 +198,6 @@ header {
 /***************************************** FOOTER***/
 
 footer {
-    
     width:100%;
     margin-top:2px;
 }
@@ -173,6 +205,19 @@ footer {
 .footer-bg-color {
     background-color:#a5c0d9;
     height:250px;
+}
+
+.social-links {
+    
+    text-align:center;
+    
+}
+
+.social-links li {
+    float:left;
+    padding-right:20px;
+    margin:0 auto;
+    text-align:center;
 }
 
 
@@ -219,6 +264,51 @@ footer {
     letter-spacing:2px;
 }
 
+/***************************************** FORM***/
+
+
+
+.form-bg-color {
+    height:400px;
+    width:30%;
+    background-color:rgba(226, 217, 217, 0.9);
+    position:absolute;
+    top:40px;
+    left:35%;
+    color:#fafafa;
+}
+
+.form-bg-color h3 {
+    text-align:center;
+    padding:10px 5px 20px 5px;
+}
+
+input [type="text"] {
+    height:550px;
+}
+
+.form label {
+    display:inline-block;
+    padding-left:5px;
+    font-size:20px;
+}
+
+.text-input {
+    width:90%;
+    height:20px;
+    padding:10px 5px;
+    margin:10px 5px;
+}
+
+.submit {
+    color:#fafafa;
+    background-color:red;
+    height:50px;
+    width:50px;
+    border-radius:50%;
+    margin-left:5px;
+    
+}
 
 
 
@@ -227,8 +317,8 @@ footer {
     .navi {
         display:none;
     }
-
-    .logo {
+    
+    #logo a{
         height:100px;
         text-align:center;
     }
@@ -244,5 +334,11 @@ footer {
 
     .blockquote {
         display:block;
+    }
+
+    .form-bg-color {
+        width:100%;
+        text-align:center;
+        left:0;
     }
 }
