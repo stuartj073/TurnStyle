@@ -145,17 +145,12 @@ nav a i {
 
 /***************************************** INF0***/
 
-
-
-
-
 .about {
     text-align:center;
     padding:50px 0 40px;
     letter-spacing:1px;
     font-weight:500;
     font-weight:1000;
-    
 }
 
 .about h1 {
@@ -171,6 +166,24 @@ nav a i {
 .row p {
     font-size:20px;
     line-height:40px;
+}
+
+/***************************************** FUNCTION***/
+
+.operations {
+    height:600px;
+    width:100%;
+    background-color:#d4d4d4;
+    margin-top:5px;
+}
+
+.op-icon {
+    color:#fafafa;
+    background-color:#7777;
+    height:40px;
+    width:40px;
+    line-height:-4px;
+    border-radius:50%;
 }
 
 /***************************************** Customer section***/
@@ -205,8 +218,6 @@ footer {
     min-height:300px;
 }
 
-
-
 .social-links {
     text-align:center;
     color:#fafafa;
@@ -222,8 +233,6 @@ footer {
     color:#fafafa;
     font-size:50px;
 }
-
-
 
 /***************************************** CHEF PROFILE***/
 
@@ -269,8 +278,6 @@ footer {
 }
 
 /***************************************** FORM***/
-
-
 
 .form-bg-color {
     height:600px;
