@@ -171,7 +171,7 @@ nav a i {
 /***************************************** FUNCTION***/
 
 .operations {
-    height:600px;
+    min-height:600px;
     width:100%;
     background-color:#d4d4d4;
     margin-top:5px;
@@ -179,11 +179,35 @@ nav a i {
 
 .op-icon {
     color:#fafafa;
-    background-color:#7777;
+    
     height:40px;
     width:40px;
     line-height:-4px;
     border-radius:50%;
+}
+
+.op-activities {
+    font-weight:400;
+    margin-left:10px;
+    font-size:30px;
+}
+
+.operations h2 {
+    padding-bottom:20px;
+}
+
+.activities {
+    margin:20px 0;
+}
+
+.table {
+    display:table;
+}
+
+.section-column {
+    display:table-cell;
+    float:none;
+    
 }
 
 /***************************************** Customer section***/
