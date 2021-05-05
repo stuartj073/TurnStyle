@@ -21,21 +21,20 @@ body {
 hr {
     margin:0 auto;
     width:25%;
-    color:#fafafa;
+    color:black;
     height:200px;
     font-weight:200;
 }
 
 /***************************************** NAV***/
-header {
-    height:80px;
+#header {
+    min-height:100px;
     background-color:#4d4c46;
     width:100%;
     margin:1px 0;
 }
 
 #logo {
-    float:left;
     text-decoration:none;
     color:#fafafa;;
     font-size:38px;
@@ -49,7 +48,6 @@ header {
     line-height:30px;
 }
 
-
 .links {
     float:right;
     list-style-type:none;
@@ -59,6 +57,7 @@ header {
 
 .links a:hover {
     font-weight:800;
+    color:#fafafa;
 }
 
 .active{
@@ -73,7 +72,7 @@ header {
 
 .links li a {
     text-decoration:none;
-    color:#fafafa;
+    color:#c6c1d4;
     padding:0 10px;
     margin:0 2px;
 }
@@ -83,7 +82,6 @@ nav a i {
 }
 
 /***************************************** COVER***/
-
 .cover-bg {
     background:url("/images/thom-holmes-RqASow2Y6Os-unsplash (2).jpg") no-repeat center center;
     background-size:cover;
@@ -183,11 +181,10 @@ nav a i {
 }
 
 .op-icon {
-    color:#fafafa;
-    
+    color:inherit;
     height:40px;
     width:40px;
-    line-height:-4px;
+    
     border-radius:50%;
 }
 
@@ -197,22 +194,23 @@ nav a i {
     font-size:30px;
 }
 
+.operations hr {
+    font-size:2px;
+}
+
 .operations h2 {
-    padding-bottom:20px;
+    padding-bottom:10px;
+    font-weight:700;
 }
 
-.activities {
-    margin:20px 0;
+.details {
+    padding:20px 0;
+    border-right:1px ridge black;
 }
 
-.table {
-    display:table;
-}
-
-.section-column {
-    display:table-cell;
-    float:none;
-    
+.details p {
+    font-size:25px;
+    text-align:left;
 }
 
 /***************************************** CUSTOMER SECTION***/
@@ -222,7 +220,6 @@ nav a i {
     color:black;
     margin:5px 0;
     position:relative;
-
 }
 
 .quotes {
@@ -289,14 +286,13 @@ footer {
     width:200px;
     border-radius:50%;
     margin:0 auto;
-    z-index:1;
 }
 
 #outer-layer {
     height:300px;
     width:300px;
     border-radius:50%;
-    background-color:white;
+    
     border:1px solid black;
     margin:0 auto;
 }
@@ -376,7 +372,7 @@ input [type="text"] {
     margin:10px 5px;
 }
 
-/***************************************** FORM***/
+/***************************************** DEALS***/
 .deal-1 {
     height:400px;
     width:40%;
@@ -439,6 +435,12 @@ input [type="text"] {
 .deals-info h3 {
     padding:5px;
     font-weight:550;
+}
+
+input[type=radio]{
+    margin:0 auto;
+    left:50%;
+    text-align:center;
 }
 
 
