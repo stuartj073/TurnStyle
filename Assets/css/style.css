@@ -8,7 +8,6 @@
     padding:0;
 }
 
-
 body {
     font-family: 'Gilda Display', sans-serif;
     color:black;
@@ -441,6 +440,15 @@ input[type=radio]{
     margin:0 auto;
     left:50%;
     text-align:center;
+}
+
+.deals-b {
+    bottom:10px;
+    margin:0 auto;
+}
+
+.deals-b button {
+    margin:0 auto;
 }
 
 
