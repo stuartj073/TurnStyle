@@ -12,5 +12,4 @@ function show(){
 
 function close() {
     mainMenu.Menu.style.top ='-100%';
-    
 }
