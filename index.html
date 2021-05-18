@@ -17,19 +17,22 @@
 <body>
     <!-- SITE NAVIGATION MENU -->
 <header>
-    <nav class="navbar navbar-light navbar-expand-sm" id="header">
-        <a href="/" id="logo" class="navbar-brand">
-                    TurnStyle</a>
-        
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav mr-auto links">
-                <li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="about.html">About</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="our_deals.html">Our Deals</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="form.html">Sign Up</a></li>
-            </ul>
+    <nav>
+        <div id="logo"><h1>TurnStyle</h1></div>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="our_deals.html">Our Deals</a></li>
+            <li><a href="form.html">Sign up</a></li>
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
+            <span class="icons">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+            </span>
+        </ul>
+    </nav>
 </header>
     
     <!-- SITE BANNER -->
@@ -64,7 +67,6 @@
                 <h2>Low cost advertiser</h2>
                     <hr>
                 <p>Our business model is as follows: For a small fee, we will effectively and efficiently ensure that your record store is made known to anyone interested in records, irrespective of where they are situated in the world. It's too often that as a record enthusiast, you are left far short of your desired knowledge of a particular area and thus give up looking for the specific store. This platforms sets out to marry those looking for customers with those looking to dig!
-
                 </p>
             </div>
             <div class="col-12 col-md-6">
@@ -170,20 +172,25 @@
     
     <!-- CUSTOMER FEEDBACK -->
     <section class="container-fluid customers-sec">
-        <h1 class="text-uppercase about">WHO WE Help</h1>
+        <h1 class="text-uppercase about">Who we Help</h1>
             <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 col-lg-4">
                     <blockquote class="blockquote text-center quotes">
-                        <p>Upon using TurnStyle our sales have never been better. The pandemic was really not what a welcome prospect as record stores are something to be experienced in person, being able to physically search through a stack of records is unlike any other form of music searching out there. Having said that, TurnStyle has put our store on the map and has allowed sales to flourish both domestically as well as abroad. We are very hopeful of taking in a lot more customers within the physical stores reopening!</p>
-                        <p>~Paul Jones</p> 
-                    </blockquote>   
+                        <p>TurnStyle without a shadow of a doubt has changed our fortunes allowing us to focus on the personal side of things while they take care of the business and analytical processes.
+                    </blockquote>
+                    <p>~Paul Jones</p>    
                 </div>
-                <div class="col-12 col-md-6">
+                <div class="col-12 col-md-6 col-lg-4">
                     <blockquote class="blockquote text-center quotes">
-                        
-                        <p>Running a cafe that also functions as a record store and concert venue has been hard to keep running throughout these uncertain times but with the help from the enthusiastic people over at TurnStyle they have helped transformed our luck! Most of our customers had been coffee lovers but now more and more often we are seeing an increasing number of customers coming in and also enquiring about specific records and orders! I couldn't have imagined things turning out so smoothly given the current state of affairs and I have noone else to thank but Turnstyle!</p>
-                        <p>~Paul Jones</p>
-                    </blockquote>   
+                        <p>Without TurnStyle, I couldn't bare the thought of what would've become of our business. They helped us source new clients whilst maintaining interest in current ones.
+                    </blockquote>  
+                    <p>~Paul Jones</p>
+                </div>
+                <div class="col-12 col-md-6 d-md-none d-lg-block col-lg-4">
+                    <blockquote class="blockquote text-center quotes">
+                        <p>Great service that full saved our business from the cusp of brink to a fully functional and competitive branch! Thanks so much Guys!</p>
+                    </blockquote>
+                    <p>~Peter Graham</p>   
                 </div>
             </div>
             
@@ -209,8 +216,6 @@
                 </div>
             </ul>
     </footer>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="./app.js"></script>
 </body>
 </html>

@@ -26,21 +26,77 @@ hr {
 }
 
 /***************************************** NAV***/
-#header {
+/**#header {
     min-height:100px;
     background-color:#4d4c46;
     width:100%;
     margin:1px 0;
+} **/
+
+nav {
+    background:#4d4c46;
+    color:#fafafa;
+    display:flex;
+    justify-content:space-between;
+}
+
+nav .mainMenu {
+    display:flex;
+    list-style:none;
+}
+
+nav .mainMenu li a {
+    display: inline-block;
+    padding:20px 10px 20px 10px;
+    text-decoration:none;
+    text-transform:uppercase;
+    color:#fafafa;
+    font-size:150%;
+}
+
+nav .openMenu {
+    font-size:50%;
+    margin:20px;
+    display:none;
+    cursor:pointer;
+}
+
+nav .mainMenu .closeMenu, .icons i {
+    font-size:2rem;
+    display:none;
+    cursor:pointer;
+}
+
+.fa-facebook:hover {
+    color:blue;
+}
+
+.fa-twitter:hover{
+    color:pink;
+}
+
+.fa-instagram:hover {
+    color:orange;
+}
+
+nav #logo {
+    margin:6px;
+    font-size:25px;
+    cursor:pointer
+}
+
+nav .mainMenu li a:hover {
+    font-weight:700;
 }
 
 #logo {
     text-decoration:none;
     color:#fafafa;;
-    font-size:38px;
+    font-size:25px;
     margin-left:10px;
     font-family: 'Shadows Into Light Two', cursive;
     letter-spacing:2px;
-    margin-top:15px;
+    margin-top:10px;
 }
 
 #logo, #links {
@@ -214,17 +270,39 @@ nav a i {
 
 /***************************************** CUSTOMER SECTION***/
 .customers-sec {
-    height:1000px;
+    min-height:500px;
     background-color:#f5f5f5;
     color:black;
     margin:5px 0;
     position:relative;
 }
 
-.quotes {
+blockquote {
+    border-left:none;
+    position:relative;
+    width:100%;
+    margin:2rem auto;
+    padding:.5rem;
+    font-size:1.5rem;
+    line-height:1.5rem;
+}
+
+blockquote::before{
+    content:'\201c';
+    top:10px;
+    left:-5px;
+}
+
+blockquote::after{
+    content:'\201d';
+    bottom:-10px;
+    right:-0px;
+}
+
+blockquote::before,
+blockquote::after {
+    font-size:3rem;
     position:absolute;
-    top:20%;
-    width:inherit;
 }
 
 .pictures {
@@ -455,6 +533,36 @@ input[type=radio]{
 
 
 @media only screen and (max-width:770px) {
+    nav .mainMenu {
+        height:100vh;
+        position:fixed;
+        top:0;
+        right:0;
+        left:0;
+        z-index:10;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        transition: top 2s ease;
+        display:none;
+    }
+
+    nav .mainMenu .closeMenu {
+        display:block;
+        position:absolute;
+        top:20px;
+        right:20px;
+    }
+
+    nav .openMenu {
+        display:block;
+    }
+    
+    .icons i {
+        display:inline-block;
+        padding:12px;
+    }
+    
     .navi {
         display:none;
     }
@@ -486,4 +594,6 @@ input[type=radio]{
     .social-links li {
         padding-top:10px;
     }
+
+
 }
