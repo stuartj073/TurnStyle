@@ -3,7 +3,7 @@ const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
 
 openMenu.addEventListener('click',open);
-close.Menu.addEventListener('click',close)
+close.Menu.addEventListener('click',close);
 
 function show(){
     mainMenu.Menu.style.display='flex';

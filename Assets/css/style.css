@@ -28,6 +28,7 @@ hr {
 
 button {
     margin:0 auto;
+    color:inherit;
 }
 
 /***************************************** NAV***/
@@ -145,7 +146,7 @@ nav a i {
 .cover-bg {
     background:url("/images/thom-holmes-RqASow2Y6Os-unsplash (2).jpg") no-repeat center center;
     background-size:cover;
-    height:700px;
+    min-height:100vh;
     width:100%;
     position:relative;
 }
@@ -190,14 +191,6 @@ nav a i {
 #joinbutton a {
     text-decoration:none;
     color:inherit;
-}
-
-.btn-secondary {
-    color:black;
-}
-
-.btn-secondary:hover {
-    background-color:black;
 }
 
 /***************************************** INF0***/
@@ -375,7 +368,7 @@ footer {
 /***************************************** FORM***/
 
 .form-bg-color {
-    height:600px;
+    height:500px;
     width:50%;
     background-color:rgba(105, 105, 105, 0.9);
     position:absolute;
@@ -400,6 +393,7 @@ input [type="text"] {
     padding-left:5px;
     font-size:20px;
     margin-left:10px;
+    text-align:center;
 }
 
 .text-input {
@@ -411,9 +405,8 @@ input [type="text"] {
 
 #textarea {
     width:90%;
-    height:200px;
+    height:100px;
     margin:10px 5px;
-    text-align:center;
 }
 
 form button {
@@ -422,11 +415,11 @@ form button {
 
 /***************************************** DEALS***/
 #deal-1 {
-    height:400px;
+    max-height:400px;
     width:40%;
     background-color:#fafafa;
     position:absolute;
-    top:20%;
+    top:10%;
     left:5%;
     border-radius:5px;
     padding:5px;
@@ -455,24 +448,20 @@ form button {
     padding-top:10px;
 }
 
-#deal-1:hover {
+#deal-1:hover,#deal-2:hover {
     border:1.5px solid #fafafa;
 }
 
 #deal-2 {
-    height:400px;
+    max-height:400px;
     width:40%;
     background-color:#e8e5d1;
     position:absolute;
-    top:20%;
+    top:10%;
     right:5%;
     border-radius:5px;
     padding:5px;
     border:1.5px solid black;
-}
-
-#deal-2:hover {
-    border:1.5px solid #fafafa;
 }
 
 .deals-info {
@@ -495,8 +484,10 @@ input[type=radio]{
 }
 
 #deals-button {
-    bottom:20px;
     position:absolute;
+    bottom:5%;
+    text-align:center;
+    width:100%;
 }
 
 #deals-button button {
@@ -511,7 +502,7 @@ button #deals-button {
     outline:none;
     font-weight:600;
     display:block;
-    border:solid 1;
+    border:1.5px solid #171717;
     font-size:16px;
     line-height:1;
     padding:16px 30px;
@@ -558,6 +549,10 @@ button #deals-button {
 
     nav .openMenu {
         display:block;
+    }
+
+    nav {
+        position:fixed;
     }
     
     .icons i {
