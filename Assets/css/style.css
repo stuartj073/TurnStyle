@@ -32,12 +32,12 @@ button {
 }
 
 /***************************************** NAV***/
-/**#header {
+#header {
     min-height:100px;
     background-color:#4d4c46;
     width:100%;
     margin:1px 0;
-} **/
+} 
 
 nav {
     background:#4d4c46;
@@ -146,7 +146,7 @@ nav a i {
 .cover-bg {
     background:url("/images/thom-holmes-RqASow2Y6Os-unsplash (2).jpg") no-repeat center center;
     background-size:cover;
-    min-height:100vh;
+    height:700px;
     width:100%;
     position:relative;
 }
@@ -409,13 +409,13 @@ input [type="text"] {
     margin:10px 5px;
 }
 
-form button {
-    color:black;
+.form button a {
+    color:inherit;
 }
 
 /***************************************** DEALS***/
 #deal-1 {
-    max-height:400px;
+    min-height:400px;
     width:40%;
     background-color:#fafafa;
     position:absolute;
@@ -453,7 +453,7 @@ form button {
 }
 
 #deal-2 {
-    max-height:400px;
+    min-height:400px;
     width:40%;
     background-color:#e8e5d1;
     position:absolute;
@@ -491,10 +491,6 @@ input[type=radio]{
 }
 
 #deals-button button {
-    margin:0 auto;
-}
-
-button #deals-button {
     margin:0 auto;
 }
 
@@ -551,10 +547,6 @@ button #deals-button {
         display:block;
     }
 
-    nav {
-        position:fixed;
-    }
-    
     .icons i {
         display:inline-block;
         padding:12px;
@@ -591,6 +583,5 @@ button #deals-button {
     .social-links li {
         padding-top:10px;
     }
-
 
 }
