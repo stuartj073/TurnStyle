@@ -333,10 +333,27 @@ footer {
 }
 
 /***************************************** CHEF PROFILE***/
+#about-cover {
+    min-height:600px;
+    background:url("/assets/images/caleb-woods-vHvUqnt31wU-unsplash.jpg") no-repeat center center;
+    background-size:cover;
+    width:100%;
+    position:relative;
+    margin-bottom:10px;
+}
+
+#about-cover h1 {
+    color:#fafafa;
+    top:40%;
+    position:absolute;
+    left:20%;
+    background-color:rgba(274, 171, 171, 0.9);
+    width:60%;
+}
 
 .chef-profile {
     min-height:900px;
-    background-color:#f5f5f5;
+    background-color:#fafafa;
 }
 
 .chef-profile h2{
@@ -555,7 +572,7 @@ input[type=radio]{
         padding:12px;
     }
     
-    #logo {
+    #logo a {
         height:100px;
         text-align:center;
     }
