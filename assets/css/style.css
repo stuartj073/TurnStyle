@@ -148,7 +148,7 @@ nav a i {
 
 /***************************************** COVER***/
 .cover-bg {
-    background:url("/images/thom-holmes-RqASow2Y6Os-unsplash (2).jpg") no-repeat center center;
+    background:url("/assets/images/thom-holmes-RqASow2Y6Os-unsplash (2).jpg") no-repeat center center;
     background-size:cover;
     height:700px;
     width:100%;
@@ -339,8 +339,9 @@ footer {
     background-color:#f5f5f5;
 }
 
-.chef-profile h3 {
-    margin-top:10px;
+.chef-profile h2{
+    margin-top:20px 0;
+    font-weight:550;
 }
 
 #center {
@@ -349,7 +350,7 @@ footer {
 
 
 #outer-layer {
-    height:300px;
+    height:250px;
     width:300px;
     margin:0 auto;
 }
@@ -554,11 +555,7 @@ input[type=radio]{
         padding:12px;
     }
     
-    .navi {
-        display:none;
-    }
-    
-    a #logo {
+    #logo {
         height:100px;
         text-align:center;
     }
