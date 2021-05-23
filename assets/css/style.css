@@ -295,12 +295,19 @@ footer {
 .social-links li {
     display:inline;
     padding-right:20px;
-    margin:50px 30px;
 }
 
 .social-links li a {
     color:#fafafa;
     font-size:50px;
+}
+
+.social-links li a .fa-instagram:hover{
+    color:#f00ac9;
+}
+
+.social-links li a .fab fa-facebook-square:hover{
+    color:#f00ac9;
 }
 
 /***************************************** CHEF PROFILE***/
@@ -333,12 +340,11 @@ footer {
     padding:20px 0;
 }
 
-#center {
+.center {
     margin:0 auto;
 }
 
-
-#outer-layer {
+.outer-layer {
     height:250px;
     width:300px;
     margin:0 auto;
