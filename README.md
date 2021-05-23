@@ -81,6 +81,11 @@ Balsamiq - The website's wireframes were created using the online software.
 Unsplash - Was used for all the images included within the website.
 
 # Testing 
+## Code Validators
+HTML Validator 
+*Home Page
+
+
 ## Testing User Stories
 -As a first time visitor, I want to get a concrete understanding of the main function of the website and what I can do as a customer.
 Upon entering the website, the user is met with a site logo and title along with a small message that reads:

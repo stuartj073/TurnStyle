@@ -175,7 +175,6 @@ ul, ol {
     padding:50px 0 40px;
     letter-spacing:1px;
     font-weight:500;
-    font-weight:1000;
 }
 
 .about h1 {
@@ -335,8 +334,7 @@ footer {
 }
 
 .chef-profile h2{
-    margin-top:20px 0;
-    font-weight:550;
+    margin-top:20px;
     padding:20px 0;
 }
 
@@ -408,7 +406,7 @@ input [type="text"] {
     margin:10px 5px;
 }
 
-.form button a {
+.form button {
     color:inherit;
 }
 
@@ -470,7 +468,6 @@ input [type="text"] {
 
 .deals-info h3 {
     padding:5px;
-    font-weight:550;
 }
 
 input[type=radio]{
@@ -490,6 +487,7 @@ input[type=radio]{
     font-weight:600;
     display:block;
     margin:10px auto;
+    width:50%;
     border:1.5px solid #171717;
     font-size:16px;
     line-height:1;
