@@ -125,7 +125,7 @@ nav .mainMenu li a:hover {
     color:#fafafa;
 }
 
-.active{
+.active {
     text-decoration:underline;
     color:#fafafa;
 }
@@ -198,7 +198,6 @@ nav a i {
 }
 
 /***************************************** INF0***/
-
 .about {
     text-align:center;
     padding:50px 0 40px;
@@ -359,6 +358,7 @@ footer {
 .chef-profile h2{
     margin-top:20px 0;
     font-weight:550;
+    padding:20px 0;
 }
 
 #center {
@@ -590,7 +590,7 @@ input[type=radio]{
 
     #deal-1, #deal-2 {
         min-height:100px;
-        width: 60%;
+        width: 90%;
         margin: 5px auto;
         padding:20px;
     }
