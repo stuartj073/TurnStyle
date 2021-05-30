@@ -91,7 +91,7 @@ HTML Validator
 ## Testing User Stories
 -As a first time visitor, I want to get a concrete understanding of the main function of the website and what I can do as a customer.
 Upon entering the website, the user is met with a site logo and title along with a small message that reads:
-"TunrStyle. Helping brick and mortar music emporiums during distressing times." Underneath this any further queries a firs time
+"TurnStyle. Helping brick and mortar music emporiums during distressing times." Underneath this any further queries a first time
 visitor might have are made abundantly clear as each of the three sections describe in detail what the website is all about.
 
 -As a first time visitor, I want to be easily able to navigate throughout the website to the various sections and pages.
@@ -99,7 +99,7 @@ The header element allows for easy navigation through to whatever page a prospec
 Each page is given a simple but concise name to explain fully what it is each page offers.
 
 -As a first time visitor, I want to be met with neat, presentable looking website that has a structure that makes sense to the overall page.
-Each page is structured in a coherent manner and only a small number of colors are used throughout the site so not to present
+Each page is structured in a coherent manner and only a small number of colors are used throughout the site so as not to present
 the user with an overload of different textures. The colors chosen were done so as to not impair visibility of the site's main features.
 
 -As a record store owner, I want to see what the website/company can offer my business to help it reach out to new audiences,
@@ -116,9 +116,6 @@ the customer to be linked to the social media accounts of the website.
 
 -As an artist/record store owner, I want to be able to identify the different options at my disposal for advertising my business.
 Clicking on to the 'Deal's' page outlines what options a user can avail from and at which cost.
-
--As an artist/record store owner, I want to be made aware of the various prices associated with each business plan.
-'Deal's' page outlines the exact cost associated with each plan.
 
 -As an owner, I want to push my websites main ethos to the customer in the cover section of the website.
 The main feeling/ mission statement is made known to the valuable customer on the site photo.
@@ -150,4 +147,17 @@ All 'text/ideas' were created by myself for the project due to real life encount
 As for the site photo, this was obtained through unsplash.com.
 The site logo was created by myself using 'Shadows Into Light Two' font.
 
+For the burger menu I searched all over youtube and online for something I felt would contribute to the overall aesthetic of the webpage.
+I came across this video that I felt suited the overall atmosphere of the website. (video source = https://www.youtube.com/watch?v=At4B7A4GOPg).
+
+Bootstrap was used extensively for the basic pillars of the website as I worked to make it more accessibly pleasing for the customer.
+
+## Media
+
+All images used throughout the various pages on the website were obtained through [www.unsplash.com].
+
+## Acknowledgements 
+
+I would like to especially thank the two tutors I used throughout the project Precious Ijege and Can Suculu for their invaluable thoughts and experience.
+I would also like to thank the wider Code Institute community throughout Slack for help on general queries and issues I was having throughout the project.
 
