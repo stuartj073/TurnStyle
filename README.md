@@ -84,6 +84,8 @@ Unsplash - Was used for all the images included within the website.
 ## Code Validators
 HTML Validator 
 *Home Page
+![GitHub Logo](/images/Screenshot.png)
+
 
 
 ## Testing User Stories
