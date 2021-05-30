@@ -101,7 +101,7 @@ ul, ol {
 
 .toggle-button {
     position: absolute;
-    top: .75rem;
+    top: 1.8rem;
     right: 1rem;
     display: none;
     flex-direction: column;
@@ -407,7 +407,7 @@ input [type="text"] {
 }
 
 .form button {
-    color:inherit;
+    color:black;
 }
 
 /***************************************** DEALS***/
