@@ -11,17 +11,17 @@ cultural personality and that's why it's vital to ensure that we can do what we 
 ## UX 
 ### User stories
 #### First time visitor goals
--As a first time visitor, I want to get a concrete understanding of the main function of the website and what I can do as a customer.
--As a first time visitor, I want to be easily able to navigate throughout the website to the various sections and pages.
--As a first time visitor, I want to be met with neat, presentable looking website that has a structure that makes sense to the overall page.
--As a first time visitor, I want to be able to make as much sense out of the business with as little information possible.
--As a record store owner, I want to see what the website/company can offer my business to help it reach out to new audiences,
--As an artist/record store owner, I want to see that other customer's have had success in using the service.
--As an artist/record store owner, I want to be able to contact the business owner as easily as possible.
--As an artist/record store owner, I want to be able to identify the different options at my disposal for advertising my business.
--As an artist/record store owner, I want to be made aware of the various prices associated with each business plan.
--As an owner, I want to display a presentable website to potential customers.
--As an owner, I want to push my websites main ethos to the customer in the cover section of the website.
+- As a first time visitor, I want to get a concrete understanding of the main function of the website and what I can do as a customer.
+- As a first time visitor, I want to be easily able to navigate throughout the website to the various sections and pages.
+- As a first time visitor, I want to be met with neat, presentable looking website that has a structure that makes sense to the overall page.
+- As a first time visitor, I want to be able to make as much sense out of the business with as little information possible.
+- As a record store owner, I want to see what the website/company can offer my business to help it reach out to new audiences,
+- As an artist/record store owner, I want to see that other customer's have had success in using the service.
+- As an artist/record store owner, I want to be able to contact the business owner as easily as possible.
+- As an artist/record store owner, I want to be able to identify the different options at my disposal for advertising my business.
+- As an artist/record store owner, I want to be made aware of the various prices associated with each business plan.
+- As an owner, I want to display a presentable website to potential customers.
+- As an owner, I want to push my websites main ethos to the customer in the cover section of the website.
     
 ## Features
 On each page of the website there were two common elements. The first being the header element which included the site logo
@@ -38,14 +38,14 @@ site information section and form section respectively.
 
 In terms of content per each page:
 1. Home page: Included the site banner/title and ethos along with the site photo backdrop of a record store.
-The three sections beneath the site title and logo included a brief description of what it is the business does ('Who we are'),
-a section on how the business achieves this ('How we do it') and then some feedback from fictional satisfied customer's ('Who we help').
+The 'Who we are' section essentially explains what the business is all about and how we go about doing exactly what we do. The 'How we do it' section goes into further detail explaining exactly how the business goes about carrying out it's mission statement in as much detail as possible. The social's, leaflet's and newspaper headings all work to show exactly how the business operates and works to put record store  owners and artists on the map.
+Finally, the 'Who we help' section presents three quotes from fictional customers who have used the company in times gone by. This works to assure prospective customers that going into business with TurnStyle can work to be a safe bet.
 
-2. About page: Gives a brief background of the two founder's of the business. This was included to ensure that potential 
-    customer's are aware of the personal connection each owner has to the trade and thus a brief backgorund is given on each.
-
+2. About page: Gives a brief background of the two founder's of the business. Giving a more personal background of each owner works to give the customer a more personal connection with the site through its owners.
+It also shows that the two owners are in fact music gurus with nothing but sheer passion and drive for the work they carry out.
 3. Our Deals page: This page includes concise details of the two deals that prospective customer's may avail from if they decide
-    to go into business with TurnStyle. The two deals include the 'basic' and 'premium' deals.
+    to go into business with TurnStyle. The two deals include the 'basic' deal which is quite obviously the more standard deal of the two for business that may not need too much help but are still trying to put their business out there more so than it isn't at the moment. 
+    The 'premium' deal outlines a more comprehensive package for those wanting to further their business' chances of survival in the longer term with more intensified help coming from the company.
 
 4. Sign up page: The sign up page includes a sign up form for the customer allowing them to choose between the two deals and to 
     also include any relevant information that they feel might benefit their future relationship with TurnStyle.
