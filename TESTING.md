@@ -3,41 +3,41 @@
 ## Code Validators
 HTML Validator (https://validator.w3.org/)
 
-*Home Page
+- Home Page
 ![GitHub Logo](/readme-files/index.html-validator-results.png)
 
-*About Page
+- About Page
 ![GitHub Logo](/readme-files/about.html-validator-results.png)
 
-*Deals Page
+- Deals Page
 ![GitHub Logo](/readme-files/deals.html-validator-results.png)
 
-*Forms Page
+- Forms Page
 ![GitHub Logo](/readme-files/forms.html-validator-results.png)
 
 ## Testing User Stories
--As a first time visitor, I want to get a concrete understanding of the main function of the website and what I can do as a customer.
+- As a first time visitor, I want to get a concrete understanding of the main function of the website and what I can do as a customer.
 Upon entering the website, the user is met with a site logo and title along with a small message that reads:
 "TurnStyle. Helping brick and mortar music emporiums during distressing times." Underneath this any further queries a first time
 visitor might have are made abundantly clear as each of the three sections describe in detail what the website is all about.
 
--As a first time visitor, I want to be easily able to navigate throughout the website to the various sections and pages.
+- As a first time visitor, I want to be easily able to navigate throughout the website to the various sections and pages.
 The header element allows for easy navigation through to whatever page a prospective customer might want to head on to.
 Each page is given a simple but concise name to explain fully what it is each page offers.
 
--As a first time visitor, I want to be met with neat, presentable looking website that has a structure that makes sense to the overall page.
+- As a first time visitor, I want to be met with neat, presentable looking website that has a structure that makes sense to the overall page.
 Each page is structured in a coherent manner and only a small number of colors are used throughout the site so as not to present
 the user with an overload of different textures. The colors chosen were done so as to not impair visibility of the site's main features.
 
--As a record store owner, I want to see what the website/company can offer my business to help it reach out to new audiences,
+- As a record store owner, I want to see what the website/company can offer my business to help it reach out to new audiences,
 For the ideal customer (i.e the record store owner), the Deals page follow's up on the basic information provided on the landing page
 with details behind each plan along with their financial cost.
 
--As an artist/record store owner, I want to see that other customer's have had success in using the service.
+- As an artist/record store owner, I want to see that other customer's have had success in using the service.
 A section detailing quote's from fictional customers shows how much of an impact TurnStyle has made on their business'
 thus showing any potential customer's that going into business with TurnStyle may be a safe bet.
 
--As an artist/record store owner, I want to be able to contact the business owner as easily as possible.
+- As an artist/record store owner, I want to be able to contact the business owner as easily as possible.
 The cover of the page has a button that links the user to the contact/form page. The site footer also allows for
 the customer to be linked to the social media accounts of the website.
 
