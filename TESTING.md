@@ -13,7 +13,7 @@ HTML Validator (https://validator.w3.org/)
 ![GitHub Logo](/readme-files/deals.html-validator-results.png)
 
 - Forms Page
-![GitHub Logo](/readme-files/forms.html-validator-results.png)
+![GitHub Logo](/readme-files/form.html-validator-results.png)
 
 ## Testing User Stories
 - As a first time visitor, I want to get a concrete understanding of the main function of the website and what I can do as a customer.
