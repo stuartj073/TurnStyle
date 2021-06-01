@@ -61,5 +61,4 @@ This was something I had struggled with as I wanted to include a slick design fr
 This issue was essentially to do with the fact that to have a button cannot have the 'a' hyperlink tag as it's immediate descendent. This issue was resolved by leaving out the button element entirely and instead creating a specific class that would tackle a div element in order to allow for the 'a' hyperlink to prompt users to the home page.
 ![GitHub Logo](/readme-files/css-issues.png).
 - A second issue that wasn't necessarily a technical or code issue but rather the documentation of the code itself through my commit messages. At the beginning of the project I was making very large commits with various different issues and tasks being solved 
-and reported into one commit.
-- Upon a meeting with my tutor this commit issue was made known and from then on I begun to restrict my commit's to more single and concise methods of reporting each operation I had been working on.
+and reported into one commit. Upon a meeting with my tutor this commit issue was made known and from then on I begun to restrict my commit's to more single and concise methods of reporting each operation I had been working on.
