@@ -1,5 +1,11 @@
 
 # Testing 
+## Responsiveness
+- I used the DevTools off Google Chrome to check for the responsiveness on all screen sizes. I created a table to reflect the results of each different screen size.
+![GitHub Logo](/readme-files/responsiveness'.png)
+![GitHub Logo](/readme-files/responsiveness-pages.png)
+
+
 ## Code Validators
 HTML Validator (https://validator.w3.org/)
 

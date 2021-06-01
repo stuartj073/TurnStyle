@@ -594,4 +594,8 @@ input[type=radio]{
     #deal-1, #deal-2 {
         width:100%;
     }
+
+    #joinbutton {
+        width:60%;
+    }
 }
