@@ -120,7 +120,7 @@ ul, ol {
 
 /***************************************** COVER***/
 .cover-bg {
-    background:url("/assets/images/thom-holmes-RqASow2Y6Os-unsplash.jpg") no-repeat center center;
+    background:url("../images/thom-holmes-RqASow2Y6Os-unsplash.jpg") no-repeat center center;
     background-size:cover;
     min-height:100vh;
     width:100%;
@@ -311,7 +311,7 @@ footer {
 /***************************************** CHEF PROFILE***/
 #about-cover {
     min-height:600px;
-    background:url("/assets/images/caleb-woods-vHvUqnt31wU-unsplash.jpg") no-repeat center center;
+    background:url("../images/caleb-woods-vHvUqnt31wU-unsplash.jpg") no-repeat center center;
     background-size:cover;
     width:100%;
     position:relative;
@@ -376,7 +376,7 @@ footer {
 }
 
 .form-cover {
-    background:url("/assets/images/sean-benesh-hsgsfvdboUw-unsplash.jpg") no-repeat center center;
+    background:url("../images/sean-benesh-hsgsfvdboUw-unsplash.jpg") no-repeat center center;
     background-size:cover;
     min-height:700px;
     width:100%;
@@ -420,7 +420,7 @@ footer {
 
 /***************************************** DEALS***/
 .deals-bg {
-    background:url("/assets/images/sean-benesh-3D16OnkFv4I-unsplash.jpg") no-repeat center center;
+    background:url("../images/sean-benesh-3D16OnkFv4I-unsplash.jpg") no-repeat center center;
     background-size:cover;
     min-height:700px;
     width:100%;
