@@ -35,7 +35,7 @@ ul, ol {
     margin:0;
 }
 
-a {
+a, a:hover {
     text-decoration:none;
 }
 
@@ -334,10 +334,13 @@ footer {
     color:#f00ac9;
 }
 
-.social-links li a .fab fa-facebook-square:hover{
-    color:#f00ac9;
+.social-links li a .fa-facebook-square:hover{
+    color:#4267B2;
 }
 
+.social-links li a .fa-twitter-square:hover{
+    color:#1DA1F2;
+}
 /***************************************** CHEF PROFILE***/
 #about-cover {
     min-height:600px;
@@ -613,6 +616,18 @@ input[type=radio]{
     }
 }
 
+@media only screen and (max-width:360px) {
+    .btn   {
+        margin:0 auto;
+        width:100%;
+        padding:10px 10px;
+    }
+
+    #joinbutton {
+        left:20%;
+    }
+}
+
 @media only screen and (max-width:320px) {
     .btn   {
         margin:0 auto;
@@ -622,5 +637,19 @@ input[type=radio]{
 
     #joinbutton {
         left:20%;
+    }
+
+    img {
+        width:80%;
+    }
+}
+
+@media only screen and (max-width:280px) {
+    {
+    padding-right: 0;
+    }
+
+    img {
+        width:70%;
     }
 }

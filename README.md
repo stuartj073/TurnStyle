@@ -33,8 +33,8 @@ To make the logo stand out and to give it more of a feeling I decided to use the
 For the body, 'Gilda Display' was utilised. 
 
 Being concious of 'color-overload' I tried to use as little color I felt needed whilst also keeping in mind the design aspect of
-the website. The hex color #bebebe was utilised for the header and footer elements. The rgba color '(274, 171, 171, 0.9);' was used to give an
-opaque backdrop to push the site header and ethos. The hex color's '#f5f5f5', '#fafafa' and 'rgba(226, 217, 217, 0.9);' were used for the customer section,
+the website. The hex color '#4d4c46' was utilised for the header and footer elements. The rgba color '(274, 171, 171, 0.9);' was used to give an
+opaque backdrop to push the site header and ethos. The hex color's '#f5f5f5', '#fafafa' and 'rgba(105, 105, 105, 0.9)' were used for the customer section,
 site information section and form section respectively. 
 
 In terms of content per each page:
