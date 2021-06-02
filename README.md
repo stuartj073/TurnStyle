@@ -1,4 +1,5 @@
 # TurnStyle
+![GitHub Logo](/readme-files/amiresponsive.png)
 TurnStyle is a fictional website application set up to help advertise various record stores through trying times. 
 By using a combination of social media, newspaper outlets and physical leaflets, TurnStyle hopes to ensure that those interested
 in record stores are made aware of their existence and can in turn browse through their music catalogue (whether that be in person or online) ensuring
@@ -60,6 +61,7 @@ It also shows that the two owners are in fact music gurus with nothing but sheer
 ### Languages used
 HTML 
 CSS3
+JavaScript
 ### Frameworks, Libraries & Programs Used
 Bootstrap 4.4.1 - Was used to create the basic layout and responsiveness of the website.
             
