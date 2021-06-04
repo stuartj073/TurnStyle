@@ -9,6 +9,8 @@ of us in office jobs are luckily able to continue to work at home, music stores,
 constituency, being more than likely the last area of concern of governments with regard to opening up the economy. People involved in music are vital to any countries existing
 cultural personality and that's why it's vital to ensure that we can do what we can to keep their existence ongoing as best as possible.
 
+If you would like to have a look at the site, you can do so by simply clicking this [link](https://stuartj073.github.io/TurnStyle/).
+
 ## UX 
 ### User stories
 #### First time visitor goals
@@ -49,7 +51,8 @@ It also shows that the two owners are in fact music gurus with nothing but sheer
     The 'premium' deal outlines a more comprehensive package for those wanting to further their business' chances of survival in the longer term with more intensified help coming from the company.
 
 4. Sign up page: The sign up page includes a sign up form for the customer allowing them to choose between the two deals and to 
-    also include any relevant information that they feel might benefit their future relationship with TurnStyle.
+    also include any relevant information that they feel might benefit their future relationship with TurnStyle. A very basic layout for the form
+    was utilised to reflect the ease of getting in touch with the company with whatever plan you deem appropriate for your business.
 
 ### Features left to Implement
 
